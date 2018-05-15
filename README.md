@@ -11,13 +11,12 @@ El **Asistente virtual para el acceso a información económica municipal**  es 
 
 El desarrollo del asistente virtual es  modular y de código abierto para facilitar que sea fácilmente ampliable o exportable a cualquier ayuntamiento. Además, se está desarrollando utilizando el diseño centrado en la ciudadanía con el objetivo de que se adapte a sus necesidades reales. La estructura de módulos y relaciones es la siguiente:
 
-![Diagrama módulos](https://raw.githubusercontent.com/areahackerscivics/infoecoVLC/master/Imagenes/Diagrama-modulos.png
-)
+![Diagrama módulos](https://raw.githubusercontent.com/areahackerscivics/infoecoVLC/master/Imagenes/infoecoVLC.png)
 
 - [Módulo 1: Extracción y Almacenamiento.](https://github.com/areahackerscivics/Chatbot_M1_Extraccion_y_Almacenamiento) Conjunto de scripts y procesos ETL (Extracción, transformación y carga) para recolectar la información de los distintos formatos que ofrece el ayuntamiento y estructurarlos en un base de datos MongoDB.
-- [Módulo 2: WebHook (Servicio Web).](https://github.com/areahackerscivics/Chatbot_M2_WebHook_ServicioWeb) Servicio web que se encarga de obtener el texto y valor de la respuesta una vez identificada de que pregunta se trata.
-- [Módulo 2: Agente Inteligente (api.ai).](https://github.com/areahackerscivics/Chatbot_M3_Agente_Inteligente) Copia del agente inteligente creado en [api.ai](https://api.ai/) para que pueda ser replicado.
-- [Módulo 3: Integración Telegram.](https://github.com/areahackerscivics/Chatbot_M4.A_Integracion_Telegram) Se encarga de gestionar todos los mensajes que se reciben de Telegram. Se comunica con el módulo 3 y el módulo 2 para obtener la respuesta para el usuario.
+
+- [Módulo 2: Agente Inteligente (api.ai).](https://github.com/areahackerscivics/Apiai_M2_infoecoVLC) Copia del agente inteligente creado en [api.ai](https://api.ai/) para que pueda ser replicado.
+- [Módulo 3: Integración Telegram.](https://github.com/areahackerscivics/Chatbot_M3_Infoeco) Se encarga de gestionar todos los mensajes que se reciben de Telegram. Se comunica con el módulo 3 y el módulo 2 para obtener la respuesta para el usuario.
 
 
 ## Guía de uso
@@ -28,6 +27,7 @@ Al tratarse de un proyecto modular puedes adoptar toda la estructura, algunos m�
 
 - Autores:
   - [Arnau Campos Albuixech](https://www.linkedin.com/in/arnau-campos-albuixech-759b23138)
+  - [Ricardo Cancar]
   - [Valeria Alexandra Haro Valle](https://about.me/valexharo) | @ValeriaHaro
 - Director del proyecto:
   - [Diego Álvarez](https://about.me/diegoalsan) | @diegoalsan
