@@ -27,7 +27,7 @@ Al tratarse de un proyecto modular puedes adoptar toda la estructura, algunos m√
 
 - Autores:
   - [Arnau Campos Albuixech](https://www.linkedin.com/in/arnau-campos-albuixech-759b23138)
-  - [Ricardo Cancar]
+  - [Ricardo Cancar](https://about.me/r.cancar) 
   - [Valeria Alexandra Haro Valle](https://about.me/valexharo) | @ValeriaHaro
 - Director del proyecto:
   - [Diego √Ålvarez](https://about.me/diegoalsan) | @diegoalsan
